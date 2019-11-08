@@ -1,0 +1,1311 @@
+[
+  {
+    "statement": "Income Statement",
+    "sections": [
+      {
+        "section": "Revenue",
+        "id": "revenue",
+        "type": "accounts",
+        "accounts": [
+          {
+            "name": "Contract Progress Billing",
+            "id": "progress-billing",
+            "glacct": [4000]
+          },
+          {
+            "name": "Realized WIP Revenue",
+            "id": "realized-wip-revenue",
+            "glacct": [4001]
+          },
+          {
+            "name": "Product Sales",
+            "id": "product-sales",
+            "glacct": [33100, 39100, 39220, 39290, 39410, 39450, 39590, 400099]
+          },
+          {
+            "name": "Rental Income",
+            "id": "rental-income",
+            "glacct": [4010]
+          }
+        ]
+      },
+      {
+        "section": "Direct Costs",
+        "id": "direct-costs",
+        "type": "accounts",
+        "accounts": [
+          {
+            "name": "Materials",
+            "id": "materials",
+            "glacct": [5000]
+          },
+          {
+            "name": "Labour",
+            "id": "labour",
+            "glacct": [5010]
+          },
+          {
+            "name": "Subcontractors",
+            "id": "subcontractors",
+            "glacct": [5020]
+          },
+          {
+            "name": "Equipment Costs",
+            "id": "equipment-costs",
+            "glacct": [5030, 5040]
+          },
+          {
+            "name": "Realized WIP Costs",
+            "id": "realized-wip-costs",
+            "glacct": [5001]
+          },
+          {
+            "name": "Other Project Costs",
+            "id": "other-proj-exp",
+            "glacct": [
+              5015,
+              5050,
+              5060,
+              5070,
+              5095,
+              5105,
+              5110,
+              5115,
+              5120,
+              5125,
+              5130,
+              5135,
+              5140,
+              5145,
+              5150,
+              5155,
+              6020,
+              6050,
+              6060,
+              6080,
+              6090,
+              6110,
+              6120,
+              6130,
+              613099
+            ]
+          },
+          {
+            "name": "Cost of Goods Sold",
+            "id": "cogs",
+            "glacct": [
+              40002,
+              43100,
+              49010,
+              49020,
+              49030,
+              49040,
+              49050,
+              49100,
+              49110,
+              49350,
+              49500,
+              49800,
+              49900,
+              500099,
+              500599,
+              602099,
+              800599
+            ]
+          }
+        ]
+      },
+      { "section": "Gross Profit", "id": "gross-profit", "type": "totals" },
+      { "section": "Gross Margin", "id": "gross-margin", "type": "margins" },
+      {
+        "section": "G & A Expenses",
+        "id": "ga-expenses",
+        "type": "accounts",
+        "accounts": [
+          {
+            "name": "Salaries & Benefits",
+            "id": "salaries",
+            "glacct": [
+              6100,
+              7800,
+              7805,
+              7810,
+              7815,
+              7820,
+              7830,
+              7840,
+              7850,
+              7860,
+              7870,
+              7880,
+              51000,
+              51250,
+              51500,
+              51600,
+              52100,
+              52200,
+              52300,
+              52400,
+              52500,
+              52600,
+              52700,
+              7865,
+              515599,
+              610099,
+              781099,
+              781599,
+              782099,
+              783099,
+              784099,
+              785099,
+              786099,
+              786599,
+              787099
+            ]
+          },
+          {
+            "name": "Computer Expenses",
+            "id": "computer-exp",
+            "glacct": [
+              61500,
+              61600,
+              61700,
+              61800,
+              61900,
+              7070,
+              7080,
+              7090,
+              7100,
+              7110,
+              710099,
+              711099,
+              709099,
+              708099
+            ]
+          },
+          {
+            "name": "Depreciation - Office",
+            "id": "depr-off",
+            "glacct": [
+              62400,
+              62500,
+              62600,
+              62700,
+              62800,
+              63000,
+              63100,
+              7140,
+              7150,
+              7160,
+              7170,
+              7180,
+              7190,
+              7200,
+              7210,
+              600099,
+              601099,
+              715099,
+              716099,
+              719099,
+              720099,
+              722099
+            ]
+          },
+          {
+            "name": "Depreciation - Project",
+            "id": "depr-proj",
+            "glacct": [6000, 6010, 7220]
+          },
+          {
+            "name": "Donations, Dues & Subscriptions",
+            "id": "donations-dues-subscriptions",
+            "glacct": [63200, 63300, 66400, 7230, 7420, 7540, 723099, 754099]
+          },
+          {
+            "name": "Insurance Expense",
+            "id": "insurance",
+            "glacct": [
+              63700,
+              63800,
+              63850,
+              63900,
+              7280,
+              7290,
+              7300,
+              7310,
+              7320,
+              728099,
+              729099,
+              730099,
+              731099,
+              732099
+            ]
+          },
+          {
+            "name": "Bank Fees & Interest Expenses",
+            "id": "interest",
+            "glacct": [
+              6070,
+              62200,
+              62250,
+              62300,
+              7040,
+              7370,
+              7380,
+              7390,
+              7395,
+              81700,
+              704099,
+              737099,
+              738099,
+              739099,
+              739599,
+              739699
+            ]
+          },
+          {
+            "name": "Miscellaneous Expenses",
+            "id": "misc",
+            "glacct": [
+              63600,
+              64500,
+              64760,
+              65300,
+              7255,
+              7260,
+              7270,
+              7440,
+              7520,
+              7600,
+              744099,
+              752099
+            ]
+          },
+          {
+            "name": "Municipal Taxes",
+            "id": "mun-taxes",
+            "glacct": [61250, 7550, 7900, 755099]
+          },
+          {
+            "name": "Office Related Expenses",
+            "id": "office-exp",
+            "glacct": [
+              65400,
+              66100,
+              66300,
+              66350,
+              66500,
+              66600,
+              7250,
+              7430,
+              7460,
+              7470,
+              7510,
+              7530,
+              725099,
+              746099,
+              747099,
+              751099,
+              753099,
+              753599,
+              760099
+            ]
+          },
+          {
+            "name": "Project Overhead Expenses",
+            "id": "proj-overhead",
+            "glacct": [6040, 6140, 6200, 62000, 6210, 7812, 612099]
+          },
+          {
+            "name": "Professional Services",
+            "id": "prof-services",
+            "glacct": [
+              61000,
+              64200,
+              64300,
+              7000,
+              7010,
+              7340,
+              7350,
+              7450,
+              700099,
+              713099,
+              734099,
+              735099
+            ]
+          },
+          {
+            "name": "Rent",
+            "id": "rent",
+            "glacct": [65700, 7490, 749099]
+          },
+          {
+            "name": "Building Repairs & Maintenance",
+            "id": "repairs-maintenance",
+            "glacct": [61300, 65900, 68000, 68500, 7050, 7060, 705099, 706099]
+          },
+          {
+            "name": "Telephone & Utilities",
+            "id": "telephone-utilities",
+            "glacct": [
+              66700,
+              66800,
+              66900,
+              67200,
+              7560,
+              7570,
+              7580,
+              7610,
+              756099,
+              757099,
+              758099,
+              761099
+            ]
+          },
+          {
+            "name": "Testing & Sample Fabrication",
+            "id": "testing",
+            "glacct": [7480, 7485, 7500, 7700, 750099, 770099]
+          },
+          {
+            "name": "Trade Shows",
+            "id": "trade-shows",
+            "glacct": [7585, 758599]
+          },
+          {
+            "name": "Travel & Sales Promotion",
+            "id": "travel-sales-promotion",
+            "glacct": [
+              61100,
+              61950,
+              62100,
+              62350,
+              64800,
+              64900,
+              65000,
+              67000,
+              67100,
+              7020,
+              7021,
+              7022,
+              7120,
+              7130,
+              7240,
+              7400,
+              7401,
+              7402,
+              7410,
+              7590,
+              702099,
+              702199,
+              702299,
+              712099,
+              724099,
+              725599,
+              726099,
+              727099,
+              740099,
+              740199,
+              740299,
+              740399,
+              740499,
+              741099,
+              742099,
+              745099,
+              759099
+            ]
+          },
+          {
+            "name": "Vehicle & Mileage Expense",
+            "id": "vehicle-exp",
+            "glacct": [
+              64400,
+              65100,
+              65800,
+              67400,
+              67450,
+              67500,
+              67550,
+              67600,
+              67700,
+              67800,
+              7330,
+              7360,
+              7620,
+              7625,
+              7630,
+              7640,
+              7660,
+              7665,
+              7670,
+              7675,
+              7680,
+              7685,
+              7690,
+              605099,
+              611099,
+              733099,
+              736099,
+              743099,
+              765099,
+              766599,
+              766099,
+              766599,
+              767099,
+              767599,
+              768099,
+              768599,
+              769599
+            ]
+          },
+          {
+            "name": "Expenses Allocated (Recovered)",
+            "id": "exp-alloc",
+            "glacct": [63500, 8010, 801099]
+          }
+        ]
+      },
+      { "section": "Net Operating Income", "id": "noi", "type": "totals" },
+      { "section": "Net Operating Margin", "id": "nom", "type": "margins" },
+      {
+        "section": "Other Income (Expenses)",
+        "id": "other-inc",
+        "type": "accounts",
+        "accounts": [
+          {
+            "name": "Decrease (Increase) in CSV of LI",
+            "id": "csv",
+            "glacct": [8000]
+          },
+          {
+            "name": "Gain/Loss on Disposal &/or Investments",
+            "id": "gain-loss",
+            "glacct": [8020, 8030, 8050, 8060, 82000, 806099]
+          },
+          {
+            "name": "Bad Debts",
+            "id": "bad-debts",
+            "glacct": [7030, 81500, 85200, 703099]
+          },
+          {
+            "name": "Rebates",
+            "id": "rebates",
+            "glacct": [
+              802599,
+              809099,
+              809599,
+              81100,
+              81400,
+              81600,
+              85100,
+              85300,
+              85400,
+              85500
+            ]
+          },
+          {
+            "name": "Miscellaneous Income (Expense)",
+            "id": "misc-income",
+            "glacct": [8040, 804099, 804599, 724599, 801599]
+          }
+        ]
+      },
+      { "section": "Net Income Before Taxes", "id": "nibt", "type": "totals" },
+      {
+        "section": "Taxes",
+        "id": "taxes",
+        "type": "accounts",
+        "accounts": [
+          {
+            "name": "Future Income Taxes",
+            "id": "future-taxes",
+            "glacct": [7910, 7920, 7930, 7940, 7960, 8070, 98610]
+          },
+          {
+            "name": "Current Income Taxes",
+            "id": "current-taxes",
+            "glacct": [7710, 7950, 98500, 98510, 98600]
+          }
+        ]
+      },
+      { "section": "Net Income After Taxes", "id": "niat", "type": "totals" },
+      { "section": "Net Profit After Taxes", "id": "npat", "type": "margins" }
+    ]
+  },
+  {
+    "statement": "Balance Sheet",
+    "sections": [
+      {
+        "section": "Assets",
+        "id": "assets",
+        "type": "accounts",
+        "subsections": [
+          {
+            "subsection": "Current Assets",
+            "id": "curr-assets",
+            "accounts": [
+              {
+                "account": "Cash",
+                "id": "cash",
+                "glacct": [
+                  1000,
+                  1010,
+                  1020,
+                  1030,
+                  1040,
+                  1045,
+                  1050,
+                  1060,
+                  1065,
+                  1070,
+                  1085,
+                  11100,
+                  11200,
+                  11300,
+                  11400,
+                  11900,
+                  100599,
+                  100699,
+                  103099,
+                  105099,
+                  110599,
+                  112599,
+                  113099
+                ]
+              },
+              {
+                "account": "Marketable Securities",
+                "id": "securities",
+                "glacct": [1075, 1080, 1082, 1090, 1096, 1097, 1098]
+              },
+              {
+                "account": "Accounts Receivable",
+                "id": "ar",
+                "glacct": [
+                  1095,
+                  1100,
+                  1110,
+                  1115,
+                  1120,
+                  1130,
+                  1140,
+                  1150,
+                  12100,
+                  12110,
+                  12130,
+                  12200,
+                  12400,
+                  12500,
+                  12900,
+                  1600,
+                  101099,
+                  110099,
+                  111599,
+                  112099,
+                  114099,
+                  115099,
+                  160099,
+                  170099,
+                  171099
+                ]
+              },
+              {
+                "account": "Intercompany Receivable",
+                "id": "ir",
+                "glacct": [
+                  1160,
+                  1165,
+                  1170,
+                  1175,
+                  1180,
+                  1185,
+                  1190,
+                  1195,
+                  17000,
+                  17010,
+                  17020,
+                  17030,
+                  17035,
+                  17040,
+                  17045,
+                  116099,
+                  117599,
+                  118099,
+                  119599,
+                  119999
+                ]
+              },
+              {
+                "account": "Income Tax Recovery",
+                "id": "it-recov",
+                "glacct": [1610]
+              },
+              {
+                "account": "Inventory",
+                "id": "inv",
+                "glacct": [
+                  1200,
+                  13100,
+                  13120,
+                  13140,
+                  13150,
+                  13160,
+                  13170,
+                  13190,
+                  13200,
+                  120099,
+                  126099
+                ]
+              },
+              {
+                "account": "Work in Process",
+                "id": "wip",
+                "glacct": [1400]
+              },
+              {
+                "account": "Prepaids",
+                "id": "prepaids",
+                "glacct": [
+                  1300,
+                  1310,
+                  1320,
+                  1330,
+                  1340,
+                  1350,
+                  1360,
+                  1370,
+                  1380,
+                  14100,
+                  14200,
+                  14250,
+                  14300,
+                  14350,
+                  14400,
+                  14450,
+                  14500,
+                  14900,
+                  16000,
+                  130099,
+                  131099,
+                  132099,
+                  133099,
+                  136099,
+                  137099,
+                  138099
+                ]
+              }
+            ]
+          },
+          {
+            "subsection": "Long-Term Assets",
+            "id": "lt-assets",
+            "accounts": [
+              {
+                "account": "Long Term Investments",
+                "id": "investments",
+                "glacct": [1510, 1520, 1530, 1540, 1550, 1900, 29350]
+              },
+              {
+                "account": "Cash Surrender Value Insurance",
+                "id": "cash-insurance",
+                "glacct": [1500]
+              },
+              {
+                "account": "Loans Receivable",
+                "id": "loan-rec",
+                "glacct": [1155]
+              },
+              {
+                "account": "Property, Plant & Equipment",
+                "id": "ppe",
+                "glacct": [
+                  15300,
+                  15400,
+                  15500,
+                  15600,
+                  15700,
+                  15800,
+                  15900,
+                  1700,
+                  1710,
+                  1720,
+                  1730,
+                  1740,
+                  1750,
+                  1760,
+                  1770,
+                  1780,
+                  1790,
+                  1800,
+                  1810,
+                  1820,
+                  1830,
+                  1840,
+                  181099,
+                  182099,
+                  183099,
+                  184099,
+                  186099,
+                  187099
+                ]
+              },
+              {
+                "account": "Accumulated Depreciation",
+                "id": "accum-depr",
+                "glacct": [
+                  15320,
+                  15420,
+                  15520,
+                  15620,
+                  15720,
+                  15820,
+                  15920,
+                  1705,
+                  1725,
+                  1745,
+                  1755,
+                  1765,
+                  1785,
+                  1805,
+                  1815,
+                  1825,
+                  1835,
+                  1845,
+                  180599,
+                  181599,
+                  182599,
+                  183599,
+                  184599,
+                  185599,
+                  186599,
+                  187599
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section": "Liabilities",
+        "id": "liab",
+        "type": "accounts",
+        "subsections": [
+          {
+            "subsection": "Current Liabilities",
+            "id": "curr-liab",
+            "accounts": [
+              {
+                "account": "Trades Payable",
+                "id": "ap",
+                "glacct": [
+                  2000,
+                  2005,
+                  2010,
+                  2015,
+                  22100,
+                  22120,
+                  22130,
+                  22140,
+                  200099
+                ]
+              },
+              {
+                "account": "Intercompany Payables",
+                "id": "ip",
+                "glacct": [2020, 2025, 2030, 2035, 2040, 2045, 2050, 2065]
+              },
+              {
+                "account": "Accrued Liabilities",
+                "id": "accrued-liab",
+                "glacct": [
+                  22900,
+                  23700,
+                  2400,
+                  2410,
+                  2420,
+                  2430,
+                  2440,
+                  2450,
+                  2460,
+                  2470,
+                  25800,
+                  200599,
+                  201599,
+                  207099,
+                  230099,
+                  231099,
+                  232099,
+                  233099,
+                  234099,
+                  236099,
+                  237099,
+                  239099,
+                  240099,
+                  243099,
+                  244099,
+                  245099,
+                  256099
+                ]
+              },
+              {
+                "account": "Billings in Excess of Costs",
+                "id": "billing-in-excess",
+                "glacct": [2200, 140099]
+              },
+              {
+                "account": "Current Portion - Capital Lease",
+                "id": "curr-capital",
+                "glacct": [26560]
+              },
+              {
+                "account": "Current Portion - Long Term Debt",
+                "id": "curr-debt",
+                "glacct": [2150, 26550, 215099]
+              },
+              {
+                "account": "Payroll, Remittances & Excise Taxes",
+                "id": "payroll",
+                "glacct": [
+                  15000,
+                  2300,
+                  2310,
+                  23100,
+                  2320,
+                  23200,
+                  23250,
+                  2330,
+                  23300,
+                  23350,
+                  2340,
+                  23400,
+                  2350,
+                  23500,
+                  2360,
+                  23600,
+                  2370,
+                  2380,
+                  23800,
+                  2390,
+                  23900,
+                  23950,
+                  24500,
+                  24550,
+                  2500,
+                  2520,
+                  2550,
+                  2560,
+                  24800,
+                  24700,
+                  252099,
+                  255099
+                ]
+              }
+            ]
+          },
+          {
+            "subsection": "Long-Term Liabilities",
+            "id": "other-liab",
+            "accounts": [
+              {
+                "account": "Loans",
+                "id": "loans",
+                "glacct": [
+                  2100,
+                  2105,
+                  2110,
+                  2600,
+                  2610,
+                  2620,
+                  2630,
+                  26500,
+                  26600,
+                  26650,
+                  26700,
+                  210599,
+                  211099,
+                  260599
+                ]
+              },
+              {
+                "account": "Future Tax Liabilities",
+                "id": "future-tax-liab",
+                "glacct": [2530]
+              },
+              {
+                "account": "Due to Shareholder/Trust",
+                "id": "due-to-shareholder",
+                "glacct": [17050, 17060, 2055, 2060, 205599, 206099]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section": "Shareholders Equity",
+        "id": "equity",
+        "type": "accounts",
+        "subsections": [
+          {
+            "subsection": "Equity",
+            "id": "equity",
+            "accounts": [
+              {
+                "account": "Capital Stock",
+                "id": "capital-stock",
+                "glacct": [
+                  29100,
+                  29200,
+                  29250,
+                  3000,
+                  3001,
+                  3002,
+                  3010,
+                  29200,
+                  3020,
+                  3025,
+                  3030
+                ]
+              },
+              {
+                "account": "Class B Shares",
+                "id": "class-b",
+                "glacct": []
+              },
+              {
+                "account": "Class C Shares",
+                "id": "class-c",
+                "glacct": []
+              },
+              {
+                "account": "Dividend Refund",
+                "id": "div-refund",
+                "glacct": []
+              },
+              {
+                "account": "Dividends",
+                "id": "dividends",
+                "glacct": []
+              },
+              {
+                "account": "Refundable Taxes Paid",
+                "id": "refund-paid",
+                "glacct": []
+              },
+              {
+                "account": "Refundable Taxes Refunded",
+                "id": "refund-refunded",
+                "glacct": []
+              },
+              {
+                "account": "Retained Earnings",
+                "id": "retained-earnings",
+                "glacct": [
+                  29300,
+                  29400,
+                  29500,
+                  29550,
+                  29600,
+                  3500,
+                  3050,
+                  3070,
+                  3060
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section": "Shareholders Equity & Liabilities",
+        "id": "equity-liabilities",
+        "type": "totals"
+      },
+      {
+        "section": "Difference",
+        "id": "balance-sheet-difference",
+        "type": "totals"
+      }
+    ]
+  },
+  {
+    "statement": "Cash Flow Statement",
+    "sections": [
+      {
+        "section": "Cash Flow from Operating Activities",
+        "id": "operating-activities",
+        "type": "accounts",
+        "accounts": [
+          {
+            "account": "Accounts Payable - Retention",
+            "id": "ap-retention",
+            "glacct": [2010]
+          },
+          {
+            "account": "Accounts Payable - Trade",
+            "id": "ap-trade",
+            "glacct": [2000, 2015, 22100, 22120, 22130, 22140, 22900]
+          },
+          {
+            "account": "Accounts Receivable",
+            "id": "ar",
+            "glacct": [1095, 1100, 1115, 12100, 12110, 12120, 12130]
+          },
+          {
+            "account": "Allowance For Doubtful Accounts",
+            "id": "afda",
+            "glacct": [1120, 12200]
+          },
+          {
+            "account": "Billings in Excess of Costs (WIP)",
+            "id": "billings-in-excess",
+            "glacct": [1400, 2200]
+          },
+          {
+            "account": "Cash Equivalents",
+            "id": "cash-equiv",
+            "glacct": [
+              1098,
+              1130,
+              1140,
+              1150,
+              12400,
+              12500,
+              12900,
+              1300,
+              1310,
+              1320,
+              1330,
+              1340,
+              1350,
+              1360,
+              1370,
+              1380,
+              14100,
+              14200,
+              14250,
+              14300,
+              14350,
+              14400,
+              14450,
+              14500,
+              14900,
+              15000,
+              1600,
+              16000,
+              1610
+            ]
+          },
+          {
+            "account": "Depreciation & Amortization",
+            "id": "depr-amort",
+            "glacct": [
+              15320,
+              15420,
+              15520,
+              15620,
+              15720,
+              15820,
+              15920,
+              1705,
+              1725,
+              1745,
+              1755,
+              1765,
+              1785,
+              1805,
+              1815,
+              1825,
+              1835,
+              1845
+            ]
+          },
+          {
+            "account": "Intercompany Payables",
+            "id": "ip",
+            "glacct": [2020, 2025, 2030, 2035, 2040, 2045, 2050, 2065]
+          },
+          {
+            "account": "Intercompany Receivables",
+            "id": "ir",
+            "glacct": [
+              1160,
+              1165,
+              1170,
+              1175,
+              1180,
+              1185,
+              1190,
+              1195,
+              17000,
+              17010,
+              17020,
+              17030,
+              17035,
+              17040,
+              17045
+            ]
+          },
+          {
+            "account": "Inventory",
+            "id": "inv",
+            "glacct": [
+              1200,
+              13100,
+              13120,
+              13140,
+              13150,
+              13160,
+              13170,
+              13190,
+              13200
+            ]
+          },
+          {
+            "account": "Net Income",
+            "id": "ni",
+            "glacct": []
+          },
+          {
+            "account": "Other Current Liabilities",
+            "id": "other-curr-liab",
+            "glacct": [
+              17050,
+              17060,
+              2055,
+              2060,
+              2300,
+              2310,
+              23100,
+              2320,
+              23200,
+              2330,
+              23300,
+              23350,
+              2340,
+              23400,
+              2350,
+              23500,
+              2360,
+              23600,
+              2370,
+              23700,
+              2380,
+              23800,
+              2390,
+              23900,
+              23950,
+              2400,
+              2410,
+              2420,
+              2430,
+              2440,
+              2450,
+              24500,
+              24550,
+              2460,
+              2470,
+              24700,
+              24800,
+              2500,
+              2510,
+              2520,
+              2530,
+              2550,
+              2560,
+              25800
+            ]
+          },
+          {
+            "account": "Retention",
+            "id": "retention",
+            "glacct": [1110]
+          }
+        ]
+      },
+      {
+        "section": "Cash Flow from Investing Activities",
+        "id": "investing-activities",
+        "type": "accounts",
+        "accounts": [
+          {
+            "account": "Fixed Assets",
+            "id": "fixed-assets",
+            "glacct": [
+              15300,
+              15400,
+              15500,
+              15600,
+              15700,
+              15800,
+              15900,
+              1700,
+              1710,
+              1720,
+              1730,
+              1740,
+              1750,
+              1760,
+              1770,
+              1780,
+              1790,
+              1800,
+              1810,
+              1820,
+              1830,
+              1840
+            ]
+          },
+          {
+            "account": "Investment in Joint Ventures",
+            "id": "investment-joint-ventures",
+            "glacct": [
+              1075,
+              1080,
+              1082,
+              1090,
+              1096,
+              1097,
+              1500,
+              1510,
+              1520,
+              1530,
+              1540,
+              1550
+            ]
+          },
+          {
+            "account": "Loans Receivable",
+            "id": "loans-recv",
+            "glacct": [1155]
+          }
+        ]
+      },
+      {
+        "section": "Cash Flow from Financing Activities",
+        "id": "financing-activities",
+        "type": "accounts",
+        "accounts": [
+          {
+            "account": "Loans",
+            "id": "loans",
+            "glacct": [
+              2100,
+              2105,
+              2110,
+              2150,
+              2600,
+              2610,
+              2620,
+              2630,
+              26550,
+              26560,
+              26600,
+              26650,
+              26700
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

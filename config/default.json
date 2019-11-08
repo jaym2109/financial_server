@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb://jaym17:knights17@ds351107.mlab.com:51107/financial_server",
+  "jwtSecret": "detroitRedWings"
+}
